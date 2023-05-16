@@ -1,4 +1,4 @@
-$a = Invoke-RestMethod "https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?key=eYd89JmJ&launcher_id=18"
+$a = Invoke-RestMethod "https://api-launcher-static.mihoyo.com/hkrpg_cn/mdk/launcher/api/resource?key=6KcVuOkbcqjJomjZ&launcher_id=33"
 
 $latest = $a.data.game.latest
 Write-Output "# game`n`n" > .\package.md
