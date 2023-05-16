@@ -2,19 +2,13 @@
 
 原神 国服更新api 不需要启动器，提供高速直链下载
 
-### 写这个的原因
-
-* 同学总是吵着校园网下原神更新慢，下载慢，这不外乎就是因为拉跨启动器单线程下载，拉跨校园网限速还带出口波动
-
-* 看着同学一百多k的下载速度。。。我觉得还是有必要枪救一下
-
 ### 使用方法
 
-#### 最新版的链接[见此](https://github.com/Nuevo009/genshin_update/blob/main/package/package.md)
+#### 最新版的链接[见此](https://github.com/foxlesbiao/StarRail_update/blob/main/package/package.md)
 
-#### 完整的json[见此](https://github.com/Nuevo009/genshin_update/blob/main/package/package.json)
+#### 完整的json[见此](https://github.comfoxlesbiao/StarRail_update/blob/main/package/package.json)
 
-#### 你可以用[这个powershell脚本](https://github.com/Nuevo009/genshin_update/blob/main/package/getPackage.ps1)来自动找链接，生成的东西就是[这个](https://github.com/Nuevo009/genshin_update/blob/main/package/package.md)
+#### 你可以用[这个powershell脚本](https://github.com/foxlesbiao/StarRail_update/blob/main/package/getPackage.ps1)来自动找链接，生成的东西就是[这个](https://github.com/Nuevo009/genshin_update/blob/main/package/package.md)
 
 #### 你也可以自己找
 
@@ -44,10 +38,3 @@
 #### 如果你不想用启动器，还想增量更新
 
 * 暂时没有找到比较完善的方法
-
-#### 其他
-
-
-* 国际服可以去<https://github.com/rapdodge/GenshinRepository>
-
-* 国服也可以去泡芙大佬那里解析<https://povsister.app/#/desktop-client-ys>，他这种直接帮你找好完整game包，但是不提供更新包和语音包下载，想找这些还是去上面拿。
