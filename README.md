@@ -11,3 +11,7 @@
 #### 你也可以自己找
 
 * 打开这个[链接](https://api-launcher-static.mihoyo.com/hkrpg_cn/mdk/launcher/api/resource?key=6KcVuOkbcqjJomjZ&launcher_id=33) 然后<kbd>ctrl</kbd> + <kbd>F</kbd> 搜索版本。
+
+#### 使用方法
+
+直接解压缩，并双击 StarRail.exe 即可
