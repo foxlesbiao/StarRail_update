@@ -6,8 +6,6 @@
 
 #### 最新版的链接[见此](https://github.com/foxlesbiao/StarRail_update/blob/main/package/package.md)
 
-#### 完整的json[见此](https://github.com/Nuevo009/genshin_update/blob/main/package/package.json)
-
 #### 你可以用[这个powershell脚本](https://github.com/foxlesbiao/StarRail_update/blob/main/package/getPackage.ps1)来自动找链接，生成的东西就是[这个](https://github.com/foxlesbiao/StarRail_update/blob/main/package/package.md)
 
 #### 你也可以自己找
