@@ -25,9 +25,9 @@ steps:
 
   - name: Run getPackage.ps1
     run: chmod +x ./package/getPackage.ps1
-- name: Deploy
-  uses: peaceiris/actions-gh-pages@v3
-  with:
-    github_token: ${{ secrets.GITHUB_TOKEN }}
-    PUBLISH_BRANCH: main
-    publish_dir: package
+  - name: Deploy
+    uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: main
+        publish_dir: package
