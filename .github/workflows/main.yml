@@ -22,4 +22,4 @@ jobs:
         run: pip install starrail  # 安装 starrail 模块
 
       - name: Run getPackage.ps1
-        run: ./package/getPackage.ps1  # 运行你的脚本
+        run: chmod +x ./package/getPackage.ps1  # 运行脚本
