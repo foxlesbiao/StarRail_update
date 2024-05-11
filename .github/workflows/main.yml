@@ -1,6 +1,8 @@
 name: Build and Run getPackage.ps1
 
 on:
+  schedule:
+  - cron: '0 0 * * 0'  # 每周日午夜执行
   push:
     branches:
       - main
@@ -23,3 +25,6 @@ jobs:
 
       - name: Run getPackage.ps1
         run: chmod +x ./package/getPackage.ps1  # 运行脚本
+        
+      - name: Pull changes
+        run: git pull origin main
