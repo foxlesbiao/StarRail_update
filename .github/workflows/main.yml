@@ -1,0 +1,25 @@
+name: Build and Run getPackage.ps1
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install starrail  # 安装 starrail 模块
+
+      - name: Run getPackage.ps1
+        run: ./package/getPackage.ps1  # 运行你的脚本
