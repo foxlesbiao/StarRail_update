@@ -1,10 +1,13 @@
 name: main
+
 on:
   schedule:
     - cron: '0 2 * * *'
+    
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -18,7 +21,7 @@ jobs:
       run: chmod +x ./package/getPackage.ps1
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
-      with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      PUBLISH_BRANCH: main
-      publish_dir: package
+        with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: main
+        publish_dir: package
