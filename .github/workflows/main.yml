@@ -25,6 +25,7 @@ jobs:
 
       - name: Run getPackage.ps1
         run: chmod +x ./package/getPackage.ps1  # 运行脚本
-        
-      - name: Pull changes
-        run: git pull origin main
+                with:
+          github_token: ${{ secrets.TRACKER_TOKEN }}
+          PUBLISH_BRANCH: main
+          publish_dir: package
